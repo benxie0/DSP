@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LT3045EMSE-1#PBF
+#
+DEF LT3045EMSE-1#PBF U 0 40 Y Y 1 L N
+F0 "U" -500 1039 50 H V L BNN
+F1 "LT3045EMSE-1#PBF" -500 -1157 50 H V L BNN
+F2 "MSOP-12_MSE" 0 0 50 H I L BNN
+F3 "LT3045EMSE-1#PBF-ND" 0 0 50 H I L BNN
+F4 "LT3045EMSE-1#PBF" 0 0 50 H I L BNN
+F5 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT3045EMSE-1-PBF/LT3045EMSE-1-PBF-ND/7202032?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "LT3045-1 - 20V, 500mA, Ultralow Noise, Ultrahigh PSRR Linear Regulator with VIOC Control" 0 0 50 H I L BNN
+F7 "TSSOP-12 Analog Devices" 0 0 50 H I L BNN
+F8 "Linear Technology/Analog" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 1000 500 1000 N
+P 2 0 0 16 500 1000 500 -1000 N
+P 2 0 0 16 500 -1000 -500 -1000 N
+P 2 0 0 16 -500 -1000 -500 1000 N
+X IN 1 -700 900 200 R 40 40 0 0 I 
+X IN-1 2 -700 800 200 R 40 40 0 0 I 
+X EN/UV 4 -700 500 200 R 40 40 0 0 B 
+X ILIM 6 -700 300 200 R 40 40 0 0 B 
+X PG 5 -700 100 200 R 40 40 0 0 B 
+X PGFB 7 -700 -100 200 R 40 40 0 0 B 
+X SET 8 -700 -300 200 R 40 40 0 0 B 
+X VOIC 3 -700 -500 200 R 40 40 0 0 B 
+X OUT 11 700 900 200 L 40 40 0 0 O 
+X OUT-1 12 700 800 200 L 40 40 0 0 O 
+X OUTS 10 700 700 200 L 40 40 0 0 O 
+X GND-1 9 700 -800 200 L 40 40 0 0 W 
+X GND 13 700 -900 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
