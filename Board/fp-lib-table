@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name LT3045EMSE-1_PBF)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/LT3045EMSE-1_PBF/LT3045EMSE-1_PBF.mod)(options "")(descr ""))
+  (lib (name DSC6101)(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library/UL_DSC6101JI2A0122880/KiCAD/2019-10-25_05-24-39/footprints.pretty)(options "")(descr ""))
+  (lib (name SSM2306)(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library/UL_DSC6101JI2A0122880/KiCAD/2019-10-25_05-24-39/footprints.pretty)(options "")(descr ""))
+  (lib (name UL_SSM3302ACPZR7)(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library/UL_SSM3302ACPZR7/footprints.pretty)(options "")(descr ""))
+  (lib (name ZXTP2013GTA)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ZXTP2013GTA/ZXTP2013GTA.mod)(options "")(descr ""))
+  (lib (name ADAU1701JSTZ)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ADAU1701JSTZ/ADAU1701JSTZ.mod)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library/UL_CAT24C16WIGT3/KiCAD/2019-10-25_05-24-29/footprints.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library/digikey-kicad-library-master/digikey-kicad-library-master/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name SSM3302ACPZ)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/SSM3302ACPZ/SSM3302ACPZ.mod)(options "")(descr ""))
+)
