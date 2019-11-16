@@ -1,0 +1,100 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C1
+U 1 1 5DE0E07E
+P 4400 3600
+F 0 "C1" V 4629 3600 50  0000 C CNN
+F 1 "22pF" V 4538 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 3600 50  0001 C CNN
+F 3 "~" H 4400 3600 50  0001 C CNN
+	1    4400 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 5DE0E6A9
+P 4800 3750
+F 0 "Y1" V 4754 3838 50  0000 L CNN
+F 1 "Crystal_Small" V 4845 3838 50  0000 L CNN
+F 2 "ECS-122.8-20-3X-EN-TR:XTAL_ECS-122.8-20-3X-EN-TR" H 4800 3750 50  0001 C CNN
+F 3 "~" H 4800 3750 50  0001 C CNN
+	1    4800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5DE0EBE5
+P 4400 3950
+F 0 "C2" V 4300 3950 50  0000 C CNN
+F 1 "22pF" V 4200 3950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 3950 50  0001 C CNN
+F 3 "~" H 4400 3950 50  0001 C CNN
+	1    4400 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 3600 4000 3600
+Wire Wire Line
+	4000 3600 4000 3950
+Wire Wire Line
+	4300 3950 4000 3950
+Connection ~ 4000 3950
+Wire Wire Line
+	4000 3950 4000 4200
+$Comp
+L power:GND #PWR0102
+U 1 1 5DE0EF55
+P 4000 4200
+F 0 "#PWR0102" H 4000 3950 50  0001 C CNN
+F 1 "GND" H 4005 4027 50  0000 C CNN
+F 2 "" H 4000 4200 50  0001 C CNN
+F 3 "" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3600 4800 3600
+Wire Wire Line
+	4800 3600 4800 3650
+Wire Wire Line
+	4800 3850 4800 3950
+Wire Wire Line
+	4800 3950 4500 3950
+Wire Wire Line
+	4800 3600 5150 3600
+Connection ~ 4800 3600
+$Comp
+L Device:R_Small_US R4
+U 1 1 5DE0F55E
+P 5250 3600
+F 0 "R4" V 5045 3600 50  0000 C CNN
+F 1 "100" V 5136 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 3600 50  0001 C CNN
+F 3 "~" H 5250 3600 50  0001 C CNN
+	1    5250 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3600 5600 3600
+Text HLabel 5600 3600 2    50   Output ~ 0
+OSCO
+Text HLabel 5600 3950 2    50   Output ~ 0
+MCLKI
+Wire Wire Line
+	4800 3950 5600 3950
+Connection ~ 4800 3950
+$EndSCHEMATC
