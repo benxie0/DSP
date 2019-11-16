@@ -326,17 +326,6 @@ $EndComp
 Wire Wire Line
 	6400 4150 6500 4150
 $Comp
-L Connector:Conn_01x12_Female J1
-U 1 1 5DD5B902
-P 6700 4650
-F 0 "J1" H 6728 4626 50  0000 L CNN
-F 1 "Conn_01x12_Female" H 6728 4535 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 6700 4650 50  0001 C CNN
-F 3 "~" H 6700 4650 50  0001 C CNN
-	1    6700 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L DSP_AnalogDevices:ADAU1701 U1
 U 1 1 5DCF47AE
 P 5700 4350
@@ -369,4 +358,15 @@ Wire Wire Line
 	6400 5150 6500 5150
 Wire Wire Line
 	6400 5250 6500 5250
+$Comp
+L Connector:Conn_01x12_Male J1
+U 1 1 5DDCACA4
+P 6700 4750
+F 0 "J1" H 6672 4632 50  0000 R CNN
+F 1 "Conn_01x12_Male" H 6672 4723 50  0000 R CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_12-G_1x12_P5.00mm_Vertical" H 6700 4750 50  0001 C CNN
+F 3 "~" H 6700 4750 50  0001 C CNN
+	1    6700 4750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
