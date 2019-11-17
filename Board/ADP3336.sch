@@ -1,0 +1,196 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:ADP3336ARMZ U?
+U 1 1 5DEA8246
+P 5300 3700
+AR Path="/5DEA8246" Ref="U?"  Part="1" 
+AR Path="/5DEA6AA8/5DEA8246" Ref="U3"  Part="1" 
+F 0 "U3" H 5300 4067 50  0000 C CNN
+F 1 "ADP3336ARMZ" H 5300 3976 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 6100 3300 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP3336.pdf" H 5300 3700 50  0001 C CNN
+	1    5300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEA824C
+P 5300 4350
+AR Path="/5DEA824C" Ref="#PWR?"  Part="1" 
+AR Path="/5DEA6AA8/5DEA824C" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 5300 4100 50  0001 C CNN
+F 1 "GND" H 5305 4177 50  0000 C CNN
+F 2 "" H 5300 4350 50  0001 C CNN
+F 3 "" H 5300 4350 50  0001 C CNN
+	1    5300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3500 6200 3500
+Wire Wire Line
+	6200 3450 6200 3500
+Connection ~ 6200 3500
+Wire Wire Line
+	4900 3600 4850 3600
+Text HLabel 4350 3600 0    50   Input ~ 0
+12V_in
+Text HLabel 6600 3500 2    50   Output ~ 0
+3.3V_out
+Wire Wire Line
+	6200 3500 6400 3500
+$Comp
+L Device:C_Small C24
+U 1 1 5DEA92FC
+P 4600 3800
+F 0 "C24" H 4400 3850 50  0000 L CNN
+F 1 "1uF" H 4350 3750 50  0000 L CNN
+F 2 "" H 4600 3800 50  0001 C CNN
+F 3 "~" H 4600 3800 50  0001 C CNN
+	1    4600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C25
+U 1 1 5DEA9BC0
+P 6400 3650
+F 0 "C25" H 6492 3696 50  0000 L CNN
+F 1 "1uF" H 6492 3605 50  0000 L CNN
+F 2 "" H 6400 3650 50  0001 C CNN
+F 3 "~" H 6400 3650 50  0001 C CNN
+	1    6400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 5DEAA093
+P 6000 3800
+F 0 "R10" H 6068 3846 50  0000 L CNN
+F 1 "140k" H 6068 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 3800 50  0001 C CNN
+F 3 "~" H 6000 3800 50  0001 C CNN
+	1    6000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 5DEAA93B
+P 6000 4150
+F 0 "R11" H 6068 4196 50  0000 L CNN
+F 1 "78.7k" H 6068 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 4150 50  0001 C CNN
+F 3 "~" H 6000 4150 50  0001 C CNN
+	1    6000 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3600 6000 3500
+Wire Wire Line
+	6000 3600 6000 3700
+Connection ~ 6000 3600
+Wire Wire Line
+	6000 3900 6000 4000
+Wire Wire Line
+	5750 4000 5750 3800
+Wire Wire Line
+	5750 3800 5700 3800
+Connection ~ 6000 4000
+Wire Wire Line
+	6000 4000 6000 4050
+Wire Wire Line
+	5750 4000 6000 4000
+Wire Wire Line
+	5700 3600 6000 3600
+Wire Wire Line
+	6000 4250 6000 4300
+Wire Wire Line
+	6000 4300 5300 4300
+Wire Wire Line
+	5300 4300 5300 4350
+Wire Wire Line
+	5300 4000 5300 4300
+Connection ~ 5300 4300
+Wire Wire Line
+	6400 3500 6400 3550
+Connection ~ 6400 3500
+Wire Wire Line
+	6400 3500 6600 3500
+Wire Wire Line
+	4350 3600 4600 3600
+Wire Wire Line
+	4600 3600 4600 3700
+Connection ~ 4600 3600
+Wire Wire Line
+	4600 3900 4600 3950
+$Comp
+L power:GND #PWR0119
+U 1 1 5DEAEBA2
+P 4600 3950
+F 0 "#PWR0119" H 4600 3700 50  0001 C CNN
+F 1 "GND" H 4605 3777 50  0000 C CNN
+F 2 "" H 4600 3950 50  0001 C CNN
+F 3 "" H 4600 3950 50  0001 C CNN
+	1    4600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3600 4850 3800
+Wire Wire Line
+	4850 3800 4900 3800
+Connection ~ 4850 3600
+$Comp
+L power:GND #PWR0120
+U 1 1 5DEAF769
+P 6400 3800
+F 0 "#PWR0120" H 6400 3550 50  0001 C CNN
+F 1 "GND" H 6405 3627 50  0000 C CNN
+F 2 "" H 6400 3800 50  0001 C CNN
+F 3 "" H 6400 3800 50  0001 C CNN
+	1    6400 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3750 6400 3800
+Wire Wire Line
+	4600 3600 4700 3600
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 5DEB0862
+P 6200 3450
+F 0 "#PWR0121" H 6200 3300 50  0001 C CNN
+F 1 "+3.3V" H 6215 3623 50  0000 C CNN
+F 2 "" H 6200 3450 50  0001 C CNN
+F 3 "" H 6200 3450 50  0001 C CNN
+	1    6200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0122
+U 1 1 5DEB0F76
+P 4700 3500
+F 0 "#PWR0122" H 4700 3350 50  0001 C CNN
+F 1 "+12V" H 4715 3673 50  0000 C CNN
+F 2 "" H 4700 3500 50  0001 C CNN
+F 3 "" H 4700 3500 50  0001 C CNN
+	1    4700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3500 4700 3600
+Connection ~ 4700 3600
+Wire Wire Line
+	4700 3600 4850 3600
+$EndSCHEMATC

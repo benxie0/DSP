@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name Library)(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library)(options "")(descr ""))
   (lib (name ECS-122.8-20-3X-EN-TR)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ECS_Osc/ECS-122.8-20-3X-EN-TR.mod)(options "")(descr ""))
+  (lib (name OSTTA020161)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/OSTTA020161/OSTTA020161.mod)(options "")(descr ""))
+  (lib (name 691213710003)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/691213710003/691213710003.mod)(options "")(descr ""))
 )

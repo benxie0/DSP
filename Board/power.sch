@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:VDD #PWR?
-U 1 1 5DE1F53E
-P 5100 2700
-AR Path="/5DE1F53E" Ref="#PWR?"  Part="1" 
-AR Path="/5DE1C9A6/5DE1F53E" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 5100 2550 50  0001 C CNN
-F 1 "VDD" H 5117 2873 50  0000 C CNN
-F 2 "" H 5100 2700 50  0001 C CNN
-F 3 "" H 5100 2700 50  0001 C CNN
-	1    5100 2700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5DE1F544
@@ -138,19 +125,6 @@ Wire Wire Line
 Connection ~ 4400 4000
 Wire Wire Line
 	4400 4000 4400 3650
-$Comp
-L power:VDD #PWR?
-U 1 1 5DE1F580
-P 6950 4100
-AR Path="/5DE1F580" Ref="#PWR?"  Part="1" 
-AR Path="/5DE1C9A6/5DE1F580" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 6950 3950 50  0001 C CNN
-F 1 "VDD" H 6967 4273 50  0000 C CNN
-F 2 "" H 6950 4100 50  0001 C CNN
-F 3 "" H 6950 4100 50  0001 C CNN
-	1    6950 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6050 3300 6300 3300
 Wire Wire Line
@@ -371,4 +345,26 @@ Wire Wire Line
 Wire Wire Line
 	6500 5000 6950 5000
 Connection ~ 6950 5000
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5DEBD049
+P 5100 2700
+F 0 "#PWR0114" H 5100 2550 50  0001 C CNN
+F 1 "+3.3V" H 5115 2873 50  0000 C CNN
+F 2 "" H 5100 2700 50  0001 C CNN
+F 3 "" H 5100 2700 50  0001 C CNN
+	1    5100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 5DEBE65C
+P 6950 4100
+F 0 "#PWR0115" H 6950 3950 50  0001 C CNN
+F 1 "+3.3V" H 6965 4273 50  0000 C CNN
+F 2 "" H 6950 4100 50  0001 C CNN
+F 3 "" H 6950 4100 50  0001 C CNN
+	1    6950 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,156 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SSM3302ACPZ-R7:SSM3302ACPZ-R7 U2
+U 1 1 5DEBF45A
+P 5750 3950
+F 0 "U2" H 5750 6120 50  0000 C CNN
+F 1 "SSM3302ACPZ-R7" H 5750 6029 50  0000 C CNN
+F 2 "QFN50P600X600X80-41N" H 5750 3950 50  0001 L BNN
+F 3 "LFCSP -40 Analog Devices" H 5750 3950 50  0001 L BNN
+F 4 "SSM3302ACPZ-R7CT-ND" H 5750 3950 50  0001 L BNN "Field4"
+F 5 "SSM3302ACPZ-R7" H 5750 3950 50  0001 L BNN "Field5"
+F 6 "https://www.digikey.com/product-detail/en/analog-devices-inc/SSM3302ACPZ-R7/SSM3302ACPZ-R7CT-ND/3071277?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5750 3950 50  0001 L BNN "Field6"
+F 7 "Analog Devices" H 5750 3950 50  0001 L BNN "Field7"
+F 8 "Audio Amp Speaker 2-CH Stereo 36.6W Class-D 40-Pin LFCSP EP T/R" H 5750 3950 50  0001 L BNN "Field8"
+	1    5750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0116
+U 1 1 5DEC0CC1
+P 4100 1900
+F 0 "#PWR0116" H 4100 1750 50  0001 C CNN
+F 1 "+12V" H 4115 2073 50  0000 C CNN
+F 2 "" H 4100 1900 50  0001 C CNN
+F 3 "" H 4100 1900 50  0001 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2000 4750 2150
+Wire Wire Line
+	4750 2450 4850 2450
+Wire Wire Line
+	4850 2350 4750 2350
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2350 4750 2450
+Wire Wire Line
+	4850 2250 4750 2250
+Connection ~ 4750 2250
+Wire Wire Line
+	4750 2250 4750 2350
+Wire Wire Line
+	4850 2150 4750 2150
+Connection ~ 4750 2150
+Wire Wire Line
+	4750 2150 4750 2250
+Wire Wire Line
+	4100 1900 4100 2000
+Wire Wire Line
+	4100 2000 4750 2000
+$Comp
+L Device:C_Small C23
+U 1 1 5DEC205F
+P 4100 2150
+F 0 "C23" H 4192 2196 50  0000 L CNN
+F 1 "C_Small" H 4192 2105 50  0000 L CNN
+F 2 "" H 4100 2150 50  0001 C CNN
+F 3 "~" H 4100 2150 50  0001 C CNN
+	1    4100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 5DEC2BA3
+P 3850 2300
+F 0 "C22" H 3942 2346 50  0000 L CNN
+F 1 "C_Small" H 3942 2255 50  0000 L CNN
+F 2 "" H 3850 2300 50  0001 C CNN
+F 3 "~" H 3850 2300 50  0001 C CNN
+	1    3850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 5DEC2E53
+P 3600 2450
+F 0 "C21" H 3692 2496 50  0000 L CNN
+F 1 "C_Small" H 3692 2405 50  0000 L CNN
+F 2 "" H 3600 2450 50  0001 C CNN
+F 3 "~" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 5DEC30D5
+P 3350 2600
+F 0 "C20" H 3442 2646 50  0000 L CNN
+F 1 "C_Small" H 3442 2555 50  0000 L CNN
+F 2 "" H 3350 2600 50  0001 C CNN
+F 3 "~" H 3350 2600 50  0001 C CNN
+	1    3350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2000 4100 2050
+Connection ~ 4100 2000
+Wire Wire Line
+	4100 2000 3850 2000
+Wire Wire Line
+	3850 2000 3850 2200
+Wire Wire Line
+	3850 2000 3600 2000
+Wire Wire Line
+	3600 2000 3600 2350
+Connection ~ 3850 2000
+Wire Wire Line
+	3600 2000 3350 2000
+Wire Wire Line
+	3350 2000 3350 2500
+Connection ~ 3600 2000
+Wire Wire Line
+	3350 2700 3350 2800
+Wire Wire Line
+	3350 2800 3600 2800
+Wire Wire Line
+	3600 2550 3600 2800
+Connection ~ 3600 2800
+Wire Wire Line
+	3850 2400 3850 2800
+Wire Wire Line
+	3850 2800 3600 2800
+Wire Wire Line
+	4100 2250 4100 2800
+Wire Wire Line
+	4100 2800 3850 2800
+Connection ~ 3850 2800
+$Comp
+L power:GND #PWR0117
+U 1 1 5DEC4912
+P 3600 3000
+F 0 "#PWR0117" H 3600 2750 50  0001 C CNN
+F 1 "GND" H 3605 2827 50  0000 C CNN
+F 2 "" H 3600 3000 50  0001 C CNN
+F 3 "" H 3600 3000 50  0001 C CNN
+	1    3600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2800 3600 3000
+$EndSCHEMATC
