@@ -6,4 +6,7 @@
   (lib (name CAT24C16WIGT3)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ul_CAT24C16WIGT3/KiCAD/2019-11-15_20-23-49/2019-11-15_20-23-49.lib)(options "")(descr ""))
   (lib (name SSM2306CPZREEL7)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ul_SSM2306CPZREEL7/KiCAD/2019-11-15_20-22-08/2019-11-15_20-22-08.lib)(options "")(descr ""))
   (lib (name ZX5T953GTA)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ZX5T953GTA/ZX5T953GTA.lib)(options "")(descr ""))
+  (lib (name 2019-11-17_04-12-08)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ul_SSM3302ACPZR7/KiCAD/2019-11-17_04-12-08/2019-11-17_04-12-08.lib)(options "")(descr ""))
+  (lib (name 2019-11-19_00-24-59)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ul_JS202011SCQN/KiCAD/2019-11-19_00-24-59/2019-11-19_00-24-59.lib)(options "")(descr ""))
+  (lib (name JS202011SCQN)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/JS202011SCQN/JS202011SCQN.lib)(options "")(descr ""))
 )

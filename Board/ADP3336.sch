@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 9 12
 Title ""
 Date ""
 Rev ""
@@ -58,7 +59,7 @@ U 1 1 5DEA92FC
 P 4600 3800
 F 0 "C24" H 4400 3850 50  0000 L CNN
 F 1 "1uF" H 4350 3750 50  0000 L CNN
-F 2 "" H 4600 3800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 3800 50  0001 C CNN
 F 3 "~" H 4600 3800 50  0001 C CNN
 	1    4600 3800
 	1    0    0    -1  
@@ -69,7 +70,7 @@ U 1 1 5DEA9BC0
 P 6400 3650
 F 0 "C25" H 6492 3696 50  0000 L CNN
 F 1 "1uF" H 6492 3605 50  0000 L CNN
-F 2 "" H 6400 3650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6400 3650 50  0001 C CNN
 F 3 "~" H 6400 3650 50  0001 C CNN
 	1    6400 3650
 	1    0    0    -1  

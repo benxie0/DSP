@@ -1,4 +1,11 @@
-16744446850038862
+16755464545268211
+691213710003
+691213710003
+<b>WR-TBL Serie 213 - 5.0mm 45° Entry Modular with Rising Cage Clamp -  1.5mm2 Wires, 3 Pins
+
+0
+3
+3
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2190,6 +2197,13 @@ SMD 8540
 0
 4
 4
+CAT24 EEPROM
+CAT24C16WI-GT3
+
+
+0
+8
+8
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -45478,6 +45492,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ECS-122.8-20-3X-EN-TR
+XTAL_ECS-122.8-20-3X-EN-TR
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -51624,6 +51645,13 @@ net tie
 0
 4
 4
+OSTTA020161
+OST_OSTTA020161
+
+
+0
+2
+2
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -67976,6 +68004,20 @@ rotary encoder
 0
 5
 4
+SSM3302
+SSM3302ACPZ-R7
+
+
+0
+41
+41
+SSM3302ACPZ-R7
+QFN50P600X600X80-41N
+
+
+0
+41
+41
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -68403,6 +68445,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch
+JS202011SCQN
+
+
+0
+6
+6
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

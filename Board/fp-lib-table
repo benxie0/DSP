@@ -3,4 +3,8 @@
   (lib (name ECS-122.8-20-3X-EN-TR)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/ECS_Osc/ECS-122.8-20-3X-EN-TR.mod)(options "")(descr ""))
   (lib (name OSTTA020161)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/OSTTA020161/OSTTA020161.mod)(options "")(descr ""))
   (lib (name 691213710003)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/691213710003/691213710003.mod)(options "")(descr ""))
+  (lib (name SSM3302ACPZ-R7)(type Legacy)(uri C:/Users/benxi/Documents/DSP/Library/SSM3302ACPZ-R7/SSM3302ACPZ-R7.mod)(options "")(descr ""))
+  (lib (name SSM3302)(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library/ul_SSM3302ACPZR7/KiCAD/2019-11-17_04-12-08/footprints.pretty)(options "")(descr ""))
+  (lib (name Switch)(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library/ul_JS202011SCQN/KiCAD/2019-11-19_00-24-59/footprints.pretty)(options "")(descr ""))
+  (lib (name "CAT24 EEPROM")(type KiCad)(uri C:/Users/benxi/Documents/DSP/Library/ul_CAT24C16WIGT3/KiCAD/2019-11-15_20-23-49/footprints.pretty)(options "")(descr ""))
 )

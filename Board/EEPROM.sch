@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+LIBS:Board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CAT24C16WIGT3:CAT24C16WI-GT3 U?
+U 1 1 5DD38BFB
+P 3400 3350
+AR Path="/5DD38BFB" Ref="U?"  Part="1" 
+AR Path="/5DD36E4D/5DD38BFB" Ref="U5"  Part="1" 
+F 0 "U5" H 4200 3737 60  0000 C CNN
+F 1 "CAT24C16WI-GT3" H 4200 3631 60  0000 C CNN
+F 2 "CAT24 EEPROM:CAT24C16WI-GT3" H 4200 3590 60  0001 C CNN
+F 3 "" H 3400 3350 60  0000 C CNN
+	1    3400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0133
+U 1 1 5DD39223
+P 3250 3750
+F 0 "#PWR0133" H 3250 3500 50  0001 C CNN
+F 1 "GND" H 3255 3577 50  0000 C CNN
+F 2 "" H 3250 3750 50  0001 C CNN
+F 3 "" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0134
+U 1 1 5DD39570
+P 5100 3250
+F 0 "#PWR0134" H 5100 3100 50  0001 C CNN
+F 1 "+3.3V" H 5115 3423 50  0000 C CNN
+F 2 "" H 5100 3250 50  0001 C CNN
+F 3 "" H 5100 3250 50  0001 C CNN
+	1    5100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3750 3250 3650
+Wire Wire Line
+	3250 3650 3400 3650
+Wire Wire Line
+	5100 3250 5100 3350
+Wire Wire Line
+	5100 3350 5000 3350
+$Sheet
+S 5150 4000 550  350 
+U 5DD45146
+F0 "switch" 50
+F1 "switch.sch" 50
+F2 "Out" O R 5700 4200 50 
+$EndSheet
+Wire Wire Line
+	5000 3450 5950 3450
+Wire Wire Line
+	5700 4200 5950 4200
+Wire Wire Line
+	5950 4200 5950 3450
+Connection ~ 5950 3450
+Wire Wire Line
+	5500 3100 5500 3300
+$Comp
+L power:+3.3V #PWR0135
+U 1 1 5DD48A78
+P 5500 2850
+AR Path="/5DD36E4D/5DD48A78" Ref="#PWR0135"  Part="1" 
+AR Path="/5DD36E4D/5DD45146/5DD48A78" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0135" H 5500 2700 50  0001 C CNN
+F 1 "+3.3V" H 5515 3023 50  0000 C CNN
+F 2 "" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R20
+U 1 1 5DD48A7E
+P 5500 3000
+AR Path="/5DD36E4D/5DD48A7E" Ref="R20"  Part="1" 
+AR Path="/5DD36E4D/5DD45146/5DD48A7E" Ref="R?"  Part="1" 
+F 0 "R20" H 5568 3046 50  0000 L CNN
+F 1 "2k20" H 5568 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 3000 50  0001 C CNN
+F 3 "~" H 5500 3000 50  0001 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2850 5500 2900
+Wire Wire Line
+	5850 3250 5850 3350
+$Comp
+L power:+3.3V #PWR0136
+U 1 1 5DD48CEA
+P 5850 3000
+AR Path="/5DD36E4D/5DD48CEA" Ref="#PWR0136"  Part="1" 
+AR Path="/5DD36E4D/5DD45146/5DD48CEA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0136" H 5850 2850 50  0001 C CNN
+F 1 "+3.3V" H 5865 3173 50  0000 C CNN
+F 2 "" H 5850 3000 50  0001 C CNN
+F 3 "" H 5850 3000 50  0001 C CNN
+	1    5850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R21
+U 1 1 5DD48CF0
+P 5850 3150
+AR Path="/5DD36E4D/5DD48CF0" Ref="R21"  Part="1" 
+AR Path="/5DD36E4D/5DD45146/5DD48CF0" Ref="R?"  Part="1" 
+F 0 "R21" H 5918 3196 50  0000 L CNN
+F 1 "2k20" H 5918 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5850 3150 50  0001 C CNN
+F 3 "~" H 5850 3150 50  0001 C CNN
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3000 5850 3050
+Wire Wire Line
+	5000 3650 5850 3650
+Wire Wire Line
+	5000 3550 5500 3550
+Text HLabel 6200 3350 0    50   Input ~ 0
+WP
+Wire Wire Line
+	6200 3350 6250 3350
+Wire Wire Line
+	6250 3350 6250 3450
+Wire Wire Line
+	5950 3450 6250 3450
+Text HLabel 5400 3300 0    50   Input ~ 0
+SCL
+Text HLabel 5750 3350 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	5400 3300 5500 3300
+Connection ~ 5500 3300
+Wire Wire Line
+	5500 3300 5500 3550
+Wire Wire Line
+	5750 3350 5850 3350
+Connection ~ 5850 3350
+Wire Wire Line
+	5850 3350 5850 3650
+$EndSCHEMATC
