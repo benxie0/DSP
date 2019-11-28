@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 5032/2P
+#
+DEF 5032/2P Y 0 40 Y Y 1 L N
+F0 "Y" -250 90 50 H V L BNN
+F1 "5032/2P" -250 -150 50 H V L BNN
+F2 "OSCCC500X320X135" 0 0 50 H I L BNN
+F3 "Xinhunjing" 0 0 50 H I L BNN
+F4 "SMD Crystal 12Mhz-20pF-20ppm-40R;" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "5032/2P" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -15 60 -15 -60 N
+P 2 0 0 10 -15 -60 15 -60 N
+P 2 0 0 10 15 -60 15 60 N
+P 2 0 0 10 15 60 -15 60 N
+P 2 0 0 10 40 70 40 0 N
+P 2 0 0 10 40 0 40 -70 N
+P 2 0 0 10 -40 70 -40 0 N
+P 2 0 0 10 -40 0 -40 -70 N
+P 2 0 0 10 -200 0 -40 0 N
+P 2 0 0 10 200 0 40 0 N
+X 2 2 300 0 100 L 40 40 0 0 P 
+X 1 1 -300 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
