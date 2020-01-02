@@ -9,4 +9,5 @@
   (lib (name CAT24)(type KiCad)(uri C:/Users/ben_x/Documents/DSP/Library/UL_CAT24C16WIGT3/KiCAD/2019-11-15_20-23-49/footprints.pretty)(options "")(descr ""))
   (lib (name 5032_2P)(type Legacy)(uri C:/Users/ben_x/Documents/DSP/Library/5032_2P/5032_2P.mod)(options "")(descr ""))
   (lib (name WJ250A-3.50-2P)(type Legacy)(uri C:/Users/ben_x/Documents/DSP/Library/connector/WJ250A-3.50-2P.mod)(options "")(descr ""))
+  (lib (name SSM2306)(type KiCad)(uri C:/Users/ben_x/Documents/DSP/Library/ul_SSM2306CPZREEL7/KiCAD/2019-11-15_20-22-08/footprints.pretty)(options "")(descr ""))
 )

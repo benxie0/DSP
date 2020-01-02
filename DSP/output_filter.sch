@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -16,7 +16,7 @@ Comment4 ""
 $EndDescr
 Text HLabel 3800 4000 0    50   Input ~ 0
 In
-Text HLabel 6800 4000 2    50   Input ~ 0
+Text HLabel 5950 4000 2    50   Input ~ 0
 Out
 $Comp
 L Device:C_Small C12
@@ -88,41 +88,7 @@ F 3 "" H 5200 4450 50  0001 C CNN
 	1    5200 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C11
-U 1 1 5DEF160F
-P 5700 4000
-AR Path="/5DE47C86/5DEF160F" Ref="C11"  Part="1" 
-AR Path="/5DE4A02D/5DEF160F" Ref="C26"  Part="1" 
-AR Path="/5DE4AB46/5DEF160F" Ref="C27"  Part="1" 
-AR Path="/5DE4B545/5DEF160F" Ref="C28"  Part="1" 
-F 0 "C28" V 5471 4000 50  0000 C CNN
-F 1 "100nF" V 5562 4000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 4000 50  0001 C CNN
-F 3 "~" H 5700 4000 50  0001 C CNN
-	1    5700 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R12
-U 1 1 5DEF1615
-P 6250 4000
-AR Path="/5DE47C86/5DEF1615" Ref="R12"  Part="1" 
-AR Path="/5DE4A02D/5DEF1615" Ref="R13"  Part="1" 
-AR Path="/5DE4AB46/5DEF1615" Ref="R14"  Part="1" 
-AR Path="/5DE4B545/5DEF1615" Ref="R15"  Part="1" 
-F 0 "R15" V 6045 4000 50  0000 C CNN
-F 1 "13k" V 6136 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 4000 50  0001 C CNN
-F 3 "~" H 6250 4000 50  0001 C CNN
-	1    6250 4000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	5800 4000 6150 4000
-Wire Wire Line
-	5200 4000 5600 4000
+	5200 4000 5950 4000
 Connection ~ 5200 4000
-Wire Wire Line
-	6350 4000 6800 4000
 $EndSCHEMATC
